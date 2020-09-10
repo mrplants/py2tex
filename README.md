@@ -11,7 +11,7 @@ Here's what a `.pytex` file might look like:
 \begin{document}
 
 🐍
-print('Python -> \\LaTeX!')
+print('Python \\textrightarrow \\LaTeX!')
 🐍
 
 \end{document}
