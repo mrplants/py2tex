@@ -1,0 +1,7 @@
+@default_files = ("main.tex");   # Set the root tex file for the output document
+$pdf_mode = 1;                   # tex -> PDF
+
+add_cus_dep('pytex','tex',0,'py2tex');
+sub py2tex {
+  system("python py2tex.py \"$_[0].pytex\" \"$_[0].tex\"");
+}
