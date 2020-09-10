@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+file_extensions: [pytex]
+scope: pytex
+
+contexts:
+  main:
+    - include: Packages/LaTeX/LaTeX.sublime-syntax
+    - match: 🐍
+      embed: Packages/Python/Python.sublime-syntax
+      escape: 🐍
