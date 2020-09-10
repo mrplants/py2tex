@@ -59,5 +59,4 @@ If you want your root latex file (`latexmk`'s `default_files` variable) to be a 
 If you use the [Sublime Text editor](https://www.sublimetext.com), you might find the `pytex.sublime-syntax` file helpful.  It provides syntax highlighting for pytex files (standard LaTeX outside 🐍 tags, standard python within 🐍 tags).  Import it using "Tools -> Developer -> New Syntax".
 
 ## Additional Information
-This utility does not recognize escaped 🐍 tags.  If you must use 🐍 in your python code, consider using its unicode encoding instead (U+1F40D).
-
+This utility does not recognize escaped 🐍 tags.  If you must use 🐍 in your python or LaTeX code, consider using its unicode encoding instead (U+1F40D).
