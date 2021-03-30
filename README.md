@@ -11,7 +11,7 @@ Here's what a `.pytex` file might look like:
 \begin{document}
 
 🐍
-print('Python \\textrightarrow \\LaTeX!')
+print(R'Python \textrightarrow{} \LaTeX{}!')
 🐍
 
 \end{document}
@@ -21,7 +21,7 @@ The corresponding LaTeX for this would be:
 \documentclass{article}
 \begin{document}
 
-Python -> \LaTeX!
+Python \textrightarrow{} \LaTeX{}!
 
 
 \end{document}
